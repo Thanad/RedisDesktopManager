@@ -29,6 +29,6 @@ jobs:
 
       - run: cd ./src && pip3 install -t ../bin/osx/release -r py/requirements.txt
       - run: brew cask install qt-creator
-      - run: qt --help
+      - run: /Applications/Qt\ Creator -help
         
 
